@@ -12,6 +12,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <script>
+      // Redirección automática si GitHub Pages está configurado en /(root) para cargar la versión compilada en /docs
+      if (window.location.hostname.endsWith('github.io') && !window.location.pathname.includes('/docs')) {
+        var p = window.location.pathname;
+        if (!p.endsWith('/')) p += '/';
+        window.location.replace(window.location.origin + p + 'docs/' + window.location.search + window.location.hash);
+      }
+    </script>
   </head>
   <body class="bg-slate-50 text-slate-900 antialiased font-sans selection:bg-indigo-500 selection:text-white">
     <div id="root"></div>
