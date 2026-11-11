@@ -1,0 +1,6 @@
+{
+  "name": "Gradientes Conjugados Precondicionado en Finanzas - UMSA",
+  "description": "Plataforma académica interactiva para la modelación y resolución de sistemas lineales financieros mediante el Método de Gradientes Conjugados Precondicionado (Suñagua, 2020) con análisis de condicionamiento, solución de referencia de Cholesky y banco de pruebas QA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
